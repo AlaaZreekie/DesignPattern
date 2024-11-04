@@ -86,9 +86,9 @@ vs.Store("blablabla");
 //    Console.WriteLine(it.Current());
 //    it.Next();
 //}
-
+/*
 using DesignPattern.DesignPatterns.Behavioral.Template;
 
 var beverageMaker = new BeverageMaker(new Tea());
 
-beverageMaker.MakeBeverage();
+beverageMaker.MakeBeverage();*/
