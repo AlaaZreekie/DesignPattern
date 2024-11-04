@@ -9,7 +9,6 @@
 
   <ItemGroup>
     <Folder Include="DesignPatterns\Behavioral\Iterator\bad\" />
-    <Folder Include="DesignPatterns\Behavioral\Template\" />
     <Folder Include="DesignPatterns\Creational\" />
     <Folder Include="DesignPatterns\Structural\" />
   </ItemGroup>

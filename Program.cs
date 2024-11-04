@@ -67,23 +67,28 @@ vs.Store("blablabla");
 
 vs.SetCompresser(new CompressorMp4());
 vs.Store("blablabla");
-*/
+//*/
 
-using DesignPattern.DesignPatterns.Behavioral.Iterator.good;
+//using DesignPattern.DesignPatterns.Behavioral.Iterator.good;
 
-ShoppingList list = new ShoppingList();
-list.Push("alaa");
-list.Push("alaa2");
+//ShoppingList list = new ShoppingList();
+//list.Push("alaa");
+//list.Push("alaa2");
 
-list.Push("alaa1");
+//list.Push("alaa1");
 
-list.Push("alaaa");
+//list.Push("alaaa");
 
-var it = list.CreateIterator();
+//var it = list.CreateIterator();
 
-while(it.HasNext())
-{
-    Console.WriteLine(it.Current());
-    it.Next();
-}
+//while(it.HasNext())
+//{
+//    Console.WriteLine(it.Current());
+//    it.Next();
+//}
 
+using DesignPattern.DesignPatterns.Behavioral.Template;
+
+var beverageMaker = new BeverageMaker(new Tea());
+
+beverageMaker.MakeBeverage();
